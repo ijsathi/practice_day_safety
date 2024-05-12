@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    /* background-image: url("images/banner.jpeg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('images/banner.jpeg');
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    margin-left: 80px;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 50px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FB9D5C;
+    font-size: 18.6px;
+}
+.banner_part_2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.banner_part_2 img{
+    width: 322px;
+    margin-top: -100px;
+    margin-right: 40px;
+}
+.b_text p{
+    color: #FB9D5C;
+    font-size: 20.5px;
+}
+.b_text h2{
+    color: white;
+    font-size: 44.1px;
+    font-weight: bold;
+    font-style: italic;
+}
+.b_text{
+    text-align: center;
+    padding: 70px;
+}
+.b_text button{
+    background: #FB9D5C;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.b_text button a{
+    text-decoration: none;
+    color: black;
+}
+.sec-2{
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+    background: #F9F9F9;
+}
+.sec-2 img{
+    width: 130px;
+    padding: 25px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.s_card{
+    border: 2px solid #A5A1A1;
+    width: 306px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+.sec-4{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.sec-4 button, .sec-4 a{
+    text-decoration: none;
+    padding: 7px;
+    color: black;
+    background: #0DCAF0;
+    border: none;
+    border-radius: 7px;
+}
+.sec-4-p2{
+    margin-left: 60px;
+}
+.sec-4-p2 img{
+    width: 50px;
+}
+footer{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    color: #C0BABA;
+    background: #151515;
+}
+footer div{
+    margin: 20px;
+    text-align: center;
+}
+footer div h2{
+    font-size: 22.7px;
+}
+footer input{
+    padding: 8px;
+    background: #C0BABA;
+    border: none;
+    margin: 10px;
+}
